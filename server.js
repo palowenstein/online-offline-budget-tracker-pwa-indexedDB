@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 
@@ -28,6 +28,6 @@ app.use(require("./routes/api.js"));
 
 // Added ENV port for Heroku deployment
 
-app.listen(process.env.PORT || 6502, () => {
+app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
