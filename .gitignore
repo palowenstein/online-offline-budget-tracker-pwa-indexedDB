@@ -1,0 +1,8 @@
+.DS_Store
+Develop/.DS_Store
+Develop/models/.DS_Store
+Develop/public/.DS_Store
+Develop/public/icons/.DS_Store
+Develop/routes/.DS_Store
+
+Develop/node_modules
