@@ -84,8 +84,8 @@ function sendTransaction(isAdding) {
   let errorEl = document.querySelector(".form .error");
 
   // validate form
-  if (nameEl.value === "" || amountEl.value === "") {
-    errorEl.textContent = "Missing Information";
+  if (!nameEl.value || !amountEl.value ) {
+    errorEl.textContent = "Insufficient or incompatible data";
     return;
   }
   else {

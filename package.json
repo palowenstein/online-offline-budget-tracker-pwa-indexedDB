@@ -1,5 +1,5 @@
 {
-  "name": "pwa-budget-app",
+  "name": "18-online-offline-budget-tracker-pwa-indexed-db",
   "version": "1.0.0",
   "description": "Professional Web Application based budget r/w calculator",
   "main": "server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/palowenstein/online-offline-budget-tracker-pwa-indexedDB.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/palowenstein/online-offline-budget-tracker-pwa-indexedDB/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/palowenstein/online-offline-budget-tracker-pwa-indexedDB#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
