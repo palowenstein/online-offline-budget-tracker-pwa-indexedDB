@@ -61,7 +61,7 @@
 <ul>
 <li>Access the application on heroku: https://pwa-off-online-budget-tracker.herokuapp.com/</li>
 <li>The budget tracker will appear pre-filled with data from Fig. 1.</li>
-<li>Enter transactions in the input fields (name / amount) then valid it each either as a positive or negative transaction (add / remove funds).</li>
+<li>Enter transactions in the input fields (name / amount) then validate each either as a positive or negative transaction (add / remove funds).</li>
 <li>The x/y axis chart below will reflect the positive / negative transactions entered over time.</li>
 <li>Without internet access, add more transactions to the budget tracker.</li>
 <li>With your internet access now back, refresh the page. This will send the previously offline data to the MongoDB collection which will now be updated with that new information.</li>
