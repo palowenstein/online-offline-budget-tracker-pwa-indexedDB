@@ -36,7 +36,7 @@
 <ul>
 <li>A .gitignore file is present at the root level to prevent the upload of node_modules, Macintosh .DS_Store files.</li>
 <li>For this application to run locally, MongoDB must be installed and running in the background as seen in the terminal screen capture below. The application will not run correctly without a valid MongoDB install.</li>
-<li>The end user must first execute the package.json file located in the root folder of the application. This can be done in Apple's Terminal via the <kbd>npm install command</kbd> and will install the required dependencies (Express, Mongoose schema, Morgan middleware) needed for the program to run.</li>
+<li>The end user must first execute the package.json file located in the root folder of the application. This can be done in Apple's Terminal via the <kbd>npm install command</kbd> and will install the required dependencies (express, mongoose schema, morgan middleware, lite-server) needed for the program to run.</li>
 <li>For the application to run in an heroku environment, a <strong>Procfile</strong> file with the startup instruction <kbd>node server.js</kbd> has been placed into the application folder.</li>
 </ul>
 
@@ -44,6 +44,7 @@
 <p>Fig. 2. Background execution of MongoDB in Apple's Terminal. MongoDB is called via the <kbd>mongo</kbd> command.</p>
 
 ## Instructions
+<h4>Local Execution</h4>
 <ul>
 <li>Makes sure MongoDB is installed locally and running in the background as seen in Fig.2.</li>
 <li>In Terminal, locate the application's root directory and enter it via the <kbd>cd</kbd> command: <kbd>cd online-offline-budget-tracker-pwa-indexedDB</kbd>.
@@ -53,14 +54,21 @@
 <li>You can now access the application in your browser by loading <code>localhost:4000</code> from the address bar.</li>
 <li>When run initially, the budget tracker will be blank of any data.</li>
 <li>Enter transactions in the input fields (name / amount) then valid it each either as a positive or negative transaction (add / remove funds).</li>
+<li>The x/y axis chart below will reflect the positive / negative transactions entered.</li>
+</ul>
+
+<h4>Offline / Online Execution</h4>
+<ul>
+<li>Access the application on heroku: https://pwa-off-online-budget-tracker.herokuapp.com/</li>
+<li>The budget tracker will appear pre-filled with data from Fig. 4.</li>
+<li>Enter transactions in the input fields (name / amount) then valid it each either as a positive or negative transaction (add / remove funds).</li>
 <li>Without internet access, add more transactions to the budget tracker.</li>
 <li>With your internet access now back, refresh the page. This will send the previously offline data to the MongoDB collection which will be updated with that new information.</li>
 </ul>
 
-
 ## Screenshots
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Browser Interface (JPG)](./demo_assets/18-3-online-offline-budget-tracker-pwa-indexedDB-browser-interface.jpg "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Browser Interface (JPG)")
-<p>Fig. 3. "Workout Stats" page during initial use. Populated with information extracted from seeders/seed.js.</p>
+<p>Fig. 3. Budget Tracker loaded from Heroku. Pre-populated with data from Fig. 4</p>
 
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — MongoDB collection reflecting the data entered via the browser application (Robo 3T) (JPG)](./demo_assets/18-3-online-offline-budget-tracker-pwa-indexedDB-mongodb-online-collection-robo3t.jpg "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — MongoDB collection reflecting the data entered via the browser application (Robo 3T) (JPG)")
 <p>Fig. 4. MongoDB collection reflecting the data entered via the browser application (Robo 3T)</p>
