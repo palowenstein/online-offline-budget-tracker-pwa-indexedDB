@@ -1,5 +1,3 @@
-.env
-
 node_modules
 
 .DS_Store
@@ -8,3 +6,5 @@ models/.DS_Store
 public/.DS_Store
 public/icons/.DS_Store
 routes/.DS_Store
+
+demo_assets/.DS_Store
