@@ -60,7 +60,7 @@
 <h4>Offline / Online Execution</h4>
 <ul>
 <li>Access the application on heroku: https://pwa-off-online-budget-tracker.herokuapp.com/</li>
-<li>The budget tracker will appear pre-filled with data from Fig. 4.</li>
+<li>The budget tracker will appear pre-filled with data from Fig. 1.</li>
 <li>Enter transactions in the input fields (name / amount) then valid it each either as a positive or negative transaction (add / remove funds).</li>
 <li>The x/y axis chart below will reflect the positive / negative transactions entered over time.</li>
 <li>Without internet access, add more transactions to the budget tracker.</li>
@@ -69,10 +69,10 @@
 
 ## Screenshots
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Browser Interface (JPG)](./demo_assets/18-3-online-offline-budget-tracker-pwa-indexedDB-browser-interface.jpg "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Browser Interface (JPG)")
-<p>Fig. 3. Budget Tracker loaded from Heroku. Pre-populated with data from Fig. 4</p>
+<p>Fig. 3. Budget Tracker loaded from Heroku. Pre-populated with data from Fig. 1</p>
 
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — MongoDB collection reflecting the data entered via the browser application (Robo 3T) (JPG)](./demo_assets/18-4-online-offline-budget-tracker-pwa-indexedDB-mongodb-online-collection-robo3t.jpg "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — MongoDB collection reflecting the data entered via the browser application (Robo 3T) (JPG)")
-<p>Fig. 4. MongoDB collection reflecting the data entered via the browser application (Robo 3T)</p>
+<p>Fig. 4. MongoDB collection reflecting the data entered via the browser application in Fig. 1. (Robo 3T)</p>
 
 ## Video
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)](./demo_assets/18-4-online-offline-budget-tracker-pwa-indexedDB-application-demo.mp4 "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)")
