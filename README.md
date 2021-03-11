@@ -1,7 +1,7 @@
 ## #18-online-offline-budget-tracker-pwa-indexedDB
 ![Project license](https://img.shields.io/badge/license-MIT,https://choosealicense.com/licenses/mit/-brightgreen)
 
-<h3>Budget Tracker application allows for offline data capture before being syncaccess and functionality: add expenses, deposits to budget with/out connection.</h3>
+<h3>Budget Tracker application allows for offline data capture, later synchronized with main MongoDB collection when internet access is resumed.</h3>
 
 <p>Github Repository Page: https://github.com/palowenstein/online-offline-budget-tracker-pwa-indexedDB</p>
 <p>Heroku Deployment Page: https://pwa-off-online-budget-tracker.herokuapp.com/</p>
@@ -18,26 +18,9 @@
   * [Contributions](#Contributions)  
   * [Contact](#Contact)
 
-
 ## GIF
 ![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (GIF)](./demo_assets/18-1-online-offline-budget-tracker-pwa-indexedDB-application-demo.gif "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (GIF)")
 <p>Fig. 1. Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (GIF)</p>
-
-
-
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-
-## Business Context
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-## Acceptance Criteria
-1 a user is on Budget App without internet connection
-2 the user inputs withdrawal or deposit
-3 to be shown on page + added to transaction history when back online.
-
 
 ## Overview
 <ul>
