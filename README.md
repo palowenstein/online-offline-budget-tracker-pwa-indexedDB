@@ -75,7 +75,7 @@
 <p>Fig. 4. MongoDB collection reflecting the data entered via the browser application in Fig. 1. (Robo 3T)</p>
 
 ## Video
-![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)](./demo_assets/18-4-online-offline-budget-tracker-pwa-indexedDB-application-demo.mp4 "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)")
+![Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)](./demo_assets/18-1-online-offline-budget-tracker-pwa-indexedDB-application-demo.mp4 "Budget Tracker (MongoDB, Mongoose, Node, Express, Morgan) — Application Demo (MP4)")
 <br />
 
 ## References
