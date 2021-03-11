@@ -1,13 +1,5 @@
-export function checkForIndexedDb() {
-    if (!window.indexedDB) {
-      console.log("Your browser doesn't support a stable version of IndexedDB.");
-      return false;
-    }
-    return true;
-  }
-
-  export function useIndexedDb(databaseName, storeName, method, object) {
-    return new Promise((resolve, reject) => {
+  // export function useIndexedDb(Transaction, pending, method, object) {
+  //   return new Promise((resolve, reject) => {
 
 let db; // db variable
 const request = indexedDB.open("budget", 1); // requesting a budget database
@@ -30,7 +22,7 @@ function saveRecord(record) {
   const transaction = db.transaction(["pending"], "readwrite"); // pending db r/w access transaction init, attr. to const.
   const store = transaction.objectStore("pending"); // pending object store access
   store.add(record); // add method - record added to store
-}
+};
 
 function checkDatabase() {
   const transaction = db.transaction(["pending"], "readwrite"); // pending db r/w access transaction init, attr. to const.
@@ -55,9 +47,9 @@ function checkDatabase() {
       });
     }
   };
-}
+};
 
-});
-}
+// }
+// };
 
 window.addEventListener("online", checkDatabase); // Event listener, accesses 'checkDatabase' fn when online access resumed.
